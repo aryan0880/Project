@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NayePankh Foundation — Giving New Wings to Those Who Need It Most</title>
+  <meta name="description" content="NayePankh Foundation is a UP Government registered NGO (80G & 12A certified) uplifting underprivileged communities through food, education, healthcare, and clothing drives across Kanpur & Ghaziabad, India." />
+  <meta name="keywords" content="NayePankh Foundation, NGO Kanpur, UP NGO, 80G NGO, donate India, food drive, education NGO, underprivileged, Prashant Shukla" />
+  <meta property="og:title" content="NayePankh Foundation — Giving New Wings to Those Who Need It Most" />
+  <meta property="og:description" content="A student-powered NGO registered with the UP Government, uplifting lives through food, education, health, and clothing." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ========================================================
+     PAGE TRANSITION OVERLAY
+     ======================================================== -->
+<div class="page-transition-overlay" id="page-transition-overlay"></div>
+
+<!-- ========================================================
+     NAVBAR
+     ======================================================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <!-- Logo -->
+    <div class="nav-logo" role="button" aria-label="Go to Home">
+      <img src="logo.png" alt="NayePankh Foundation Logo" class="nav-logo-img" />
+      <div class="nav-logo-text">
+        <span class="nav-logo-main">NayePankh</span>
+        <span class="nav-logo-sub">Foundation</span>
+      </div>
+    </div>
+
+    <!-- Desktop Nav -->
+    <div class="nav-links" role="navigation" aria-label="Main Navigation">
+      <a class="nav-link active" data-page="home"    role="button" id="nav-home">Home</a>
+      <a class="nav-link"        data-page="about"   role="button" id="nav-about">About Us</a>
+      <a class="nav-link"        data-page="causes"  role="button" id="nav-causes">Our Causes</a>
+      <a class="nav-link"        data-page="contact" role="button" id="nav-contact">Contact</a>
+    </div>
+
+    <!-- CTA + Hamburger -->
+    <button class="nav-cta" data-page="donate" id="nav-donate-btn" aria-label="Donate Now">Donate Now ♥</button>
+    <div class="hamburger" id="hamburger" role="button" aria-label="Toggle Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile Navigation">
+  <a class="nav-link mobile-nav-link" data-page="home"    role="button">Home</a>
+  <a class="nav-link mobile-nav-link" data-page="about"   role="button">About Us</a>
+  <a class="nav-link mobile-nav-link" data-page="causes"  role="button">Our Causes</a>
+  <a class="nav-link mobile-nav-link" data-page="contact" role="button">Contact</a>
+  <button class="nav-cta"            data-page="donate"   style="margin-top:16px;width:100%;text-align:center;padding:14px">Donate Now ♥</button>
+</div>
+
+<!-- ========================================================
+     PAGE: HOME
+     ======================================================== -->
+<main id="page-home" class="page active">
+
+  <!-- ── Hero ── -->
+  <section class="home-hero" aria-labelledby="hero-heading">
+
+    <!-- Full-hero watermark artwork -->
+    <div class="hero-watermark" aria-hidden="true">
+      <img src="hero-art.png" alt="" />
+    </div>
+
+    <!-- Subtle floating particles -->
+    <div class="hero-particles" aria-hidden="true">
+      <span class="particle p1"></span>
+      <span class="particle p2"></span>
+      <span class="particle p3"></span>
+      <span class="particle p4"></span>
+      <span class="particle p5"></span>
+    </div>
+
+    <div class="container">
+      <div class="hero-content-wrap">
+        <div class="hero-eyebrow reveal">
+          <div class="hero-eyebrow-dot"></div>
+          <span>UP Govt Registered NGO &bull; 80G &amp; 12A Certified</span>
+        </div>
+        <h1 id="hero-heading" class="reveal reveal-delay-1">
+          Giving <em>New Wings</em><br/>to Those Who<br/>Need It Most
+        </h1>
+        <p class="reveal reveal-delay-2">
+          NayePankh Foundation is a student-powered movement uplifting underprivileged
+          communities across Kanpur &amp; Ghaziabad through food drives, free education,
+          healthcare access, and clothing distribution — because every person deserves
+          a chance to fly.
+        </p>
+        <div class="hero-ctas reveal reveal-delay-3">
+          <button class="btn btn-saffron" data-page="donate" id="hero-donate-btn">
+            ♥&nbsp; Donate Now
+          </button>
+          <button class="btn btn-outline-white" data-page="about" id="hero-story-btn">
+            Our Story &nbsp;→
+          </button>
+        </div>
+        <!-- Mini trust row -->
+        <div class="hero-trust reveal reveal-delay-4">
+          <div class="hero-trust-item"><span class="hero-trust-dot"></span>2,00,000+ Lives Touched</div>
+          <div class="hero-trust-sep">|</div>
+          <div class="hero-trust-item"><span class="hero-trust-dot"></span>5,000+ Volunteers</div>
+          <div class="hero-trust-sep">|</div>
+          <div class="hero-trust-item"><span class="hero-trust-dot"></span>Since 2019</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats Bar ── -->
+  <section class="stats-bar" aria-label="Key Impact Statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-target="200000" data-display="2,00,000+">0</div>
+          <div class="stat-label">Lives Touched</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="4" data-display="4+">0</div>
+          <div class="stat-label">Cities Reached</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="5000" data-display="5,000+">0</div>
+          <div class="stat-label">Volunteers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="2019" data-display="2019">0</div>
+          <div class="stat-label">Year Founded</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Four Pillars ── -->
+  <section class="pillars-section section-pad" aria-labelledby="pillars-heading">
+    <div class="container">
+      <div class="pillars-header">
+        <div class="divider"></div>
+        <h2 id="pillars-heading" class="reveal">Our Four Pillars of Change</h2>
+        <p class="reveal reveal-delay-1">Every initiative we run falls under one of these core areas — each one a promise to the communities we serve.</p>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card reveal reveal-delay-1">
+          <div class="pillar-icon food" aria-hidden="true">🍛</div>
+          <h3>Food Security</h3>
+          <p>Weekly community food drives ensuring no one sleeps hungry. We've distributed 10,000+ meals across Kanpur &amp; Ghaziabad through our dedicated volunteer network.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-2">
+          <div class="pillar-icon education" aria-hidden="true">📚</div>
+          <h3>Education</h3>
+          <p>Mentoring 500+ underprivileged children with free stationery, career guidance sessions, and skill-building workshops that open doors to a brighter future.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-3">
+          <div class="pillar-icon health" aria-hidden="true">💊</div>
+          <h3>Health &amp; Hygiene</h3>
+          <p>Running sanitary pad drives, free health camps, and awareness sessions — because dignity and health are not luxuries, they are rights for every individual.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-4">
+          <div class="pillar-icon clothing" aria-hidden="true">👕</div>
+          <h3>Clothing</h3>
+          <p>Priority winter clothing drives collecting and distributing warm garments to families who need them most — keeping our communities safe from the cold.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Founder Quote ── -->
+  <section class="founder-quote-section" aria-label="Founder Quote">
+    <div class="container">
+      <div class="quote-content reveal">
+        <blockquote>
+          "If we all do something, then together there is no problem that we cannot solve!"
+        </blockquote>
+        <div class="quote-author">
+          <div class="quote-avatar" aria-hidden="true">PS</div>
+          <div class="quote-info">
+            <strong>Prashant Shukla</strong>
+            <span>Founder, NayePankh Foundation &bull; Est. 2019, Kanpur</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Join CTA ── -->
+  <section class="join-cta-section" aria-labelledby="join-heading">
+    <div class="container">
+      <div class="divider reveal"></div>
+      <h2 id="join-heading" class="reveal reveal-delay-1">Be Part of the Change</h2>
+      <p class="reveal reveal-delay-2">
+        Whether you give ₹100 or your time — every act of kindness creates ripples that
+        transform entire communities. Join 5,000+ volunteers who believe in a better India.
+      </p>
+      <div class="join-cta-btns reveal reveal-delay-3">
+        <button class="btn btn-saffron" data-page="donate" id="join-donate-btn">♥&nbsp; Donate Now</button>
+        <button class="btn btn-outline-white" data-page="contact" id="join-volunteer-btn">Become a Volunteer</button>
+      </div>
+    </div>
+  </section>
+
+</main><!-- end #page-home -->
+
+
+<!-- ========================================================
+     PAGE: ABOUT
+     ======================================================== -->
+<main id="page-about" class="page">
+
+  <!-- ── Hero ── -->
+  <section class="about-hero" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-hero-badge">Our Story</div>
+      <h1 id="about-heading" class="reveal">
+        We believe service to mankind<br/>
+        is <em>service to God</em>
+      </h1>
+      <p class="reveal reveal-delay-1">
+        Born in the heart of Kanpur in 2019, NayePankh Foundation is a student-driven movement 
+        that believes ordinary people can create extraordinary change.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Story + Team ── -->
+  <section class="about-story section-pad">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Story -->
+        <div class="about-story-text">
+          <div class="divider divider-left"></div>
+          <h2 class="reveal">From Idea to Impact</h2>
+          <p class="reveal reveal-delay-1">
+            NayePankh Foundation was born in 2019 in Kanpur, Uttar Pradesh, from a simple but
+            powerful belief: that students — energetic, passionate, and idealistic — could
+            become the engine of social change in their own communities.
+          </p>
+          <p class="reveal reveal-delay-2">
+            Founded by <strong>Prashant Shukla</strong>, the organisation started with a small
+            group of friends who wanted to do more than just talk about India's challenges.
+            They hit the streets, spoke to families in need, and launched their first food drive
+            with whatever funds they could gather.
+          </p>
+          <p class="reveal reveal-delay-2">
+            From those humble beginnings, NayePankh has grown into a registered entity
+            recognised by the Government of Uttar Pradesh — with certification under
+            <strong>80G</strong> (donor tax exemption) and <strong>12A</strong> (income tax
+            exemption), making every rupee donated go further.
+          </p>
+          <p class="reveal reveal-delay-3">
+            Today, we operate across Kanpur and Ghaziabad, supported by over 5,000 volunteers,
+            and have touched more than 2 lakh lives. But we are just getting started.
+          </p>
+
+          <!-- Founder Quote Block -->
+          <div class="founder-quote-block reveal reveal-delay-3">
+            <blockquote>
+              "If we all do something, then together there is no problem that we cannot solve!"
+            </blockquote>
+            <cite>— Prashant Shukla, Founder</cite>
+          </div>
+
+          <!-- Badges -->
+          <div class="about-badges reveal reveal-delay-4">
+            <span class="about-badge">📍 Kanpur, UP</span>
+            <span class="about-badge">🗓 Founded 2019</span>
+            <span class="about-badge gold">🏛 UP Govt Registered</span>
+            <span class="about-badge gold">✅ 80G Certified</span>
+            <span class="about-badge teal">🟢 12A Certified</span>
+            <span class="about-badge">👥 5,000+ Volunteers</span>
+          </div>
+        </div>
+
+        <!-- Right: Team Cards -->
+        <div class="about-team">
+          <div class="team-card reveal reveal-delay-1">
+            <div class="team-avatar founder">PS</div>
+            <div class="team-info">
+              <h4>Prashant Shukla</h4>
+              <div class="team-role">Founder &amp; President</div>
+              <p>
+                The driving force behind NayePankh — Prashant channelled his student energy 
+                into building an organisation that now serves lakhs across Uttar Pradesh. 
+                His vision: no community left behind.
+              </p>
+            </div>
+          </div>
+          <div class="team-card reveal reveal-delay-2">
+            <div class="team-avatar vol">VP</div>
+            <div class="team-info">
+              <h4>Volunteer Presidents</h4>
+              <div class="team-role">City Chapter Leads</div>
+              <p>
+                Each city chapter is led by dedicated student volunteers who coordinate drives,
+                mobilise resources, and ensure every initiative reaches those who truly need it.
+              </p>
+            </div>
+          </div>
+          <div class="team-card reveal reveal-delay-3">
+            <div class="team-avatar vol" style="background: linear-gradient(135deg,#F59E0B,#D97706);color:#1A2B45;">🌟</div>
+            <div class="team-info">
+              <h4>5,000+ Student Volunteers</h4>
+              <div class="team-role">The Heart of NayePankh</div>
+              <p>
+                College and university students from across Uttar Pradesh who dedicate their 
+                weekends, holidays, and passion to transforming lives on the ground — one drive 
+                at a time.
+              </p>
+            </div>
+          </div>
+          <div class="team-card reveal reveal-delay-4">
+            <div class="team-avatar vol" style="background: linear-gradient(135deg,#6366F1,#4F46E5);color:white;">🤝</div>
+            <div class="team-info">
+              <h4>Community Partners</h4>
+              <div class="team-role">NGO &amp; Corporate Allies</div>
+              <p>
+                We collaborate with local businesses, educational institutions, and government
+                bodies to amplify our reach and ensure sustainable, long-term impact in every
+                community we serve.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Values ── -->
+  <section class="values-section section-pad" aria-labelledby="values-heading">
+    <div class="container">
+      <div class="values-header">
+        <div class="divider"></div>
+        <h2 id="values-heading" class="reveal">What We Stand For</h2>
+        <p class="reveal reveal-delay-1">The core principles that guide every decision, every drive, and every interaction within our organisation.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card reveal reveal-delay-1">
+          <div class="value-icon" style="background: linear-gradient(135deg,#FEF3C7,#FDE68A);">❤️</div>
+          <h3>Compassion</h3>
+          <p>We lead with empathy — seeing the person first, the problem second. Every drive is powered by genuine care for our brothers and sisters in need.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-2">
+          <div class="value-icon" style="background: linear-gradient(135deg,#DBEAFE,#BFDBFE);">🎓</div>
+          <h3>Student Power</h3>
+          <p>We believe youth is not just the future — it's the present. Our student-driven model proves that young energy can move mountains.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-3">
+          <div class="value-icon" style="background: linear-gradient(135deg,#D1FAE5,#A7F3D0);">🔍</div>
+          <h3>Transparency</h3>
+          <p>Every donation is accounted for. We maintain full financial transparency, backed by our 80G &amp; 12A certifications and UP Government registration.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-4">
+          <div class="value-icon" style="background: linear-gradient(135deg,#EDE9FE,#DDD6FE);">🌱</div>
+          <h3>Community-Driven</h3>
+          <p>We don't impose solutions — we listen to communities, understand their needs, and co-create change that is sustainable and genuinely impactful.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main><!-- end #page-about -->
+
+
+<!-- ========================================================
+     PAGE: CAUSES
+     ======================================================== -->
+<main id="page-causes" class="page">
+
+  <!-- ── Hero ── -->
+  <section class="causes-hero" aria-labelledby="causes-heading">
+    <div class="container">
+      <h1 id="causes-heading" class="reveal">What We're Fighting For</h1>
+      <p class="reveal reveal-delay-1">
+        Four pillars of change, hundreds of drives, and thousands of lives transformed — 
+        here's how NayePankh Foundation creates real impact on the ground.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Cause Blocks ── -->
+  <div class="causes-section">
+
+    <!-- 1. Food Security -->
+    <div class="cause-block" id="cause-food">
+      <div class="container">
+        <div class="cause-inner">
+          <div class="cause-text">
+            <span class="tag-pill tag-saffron">🍛 Food Security</span>
+            <h2 class="reveal">No One Should<br/>Sleep Hungry</h2>
+            <p class="reveal reveal-delay-1">
+              Hunger is the most immediate injustice — and our food drives are our frontline 
+              response. Every week, NayePankh volunteers take to the streets of Kanpur and 
+              Ghaziabad with freshly prepared meals, rations, and dry groceries for families 
+              living below the poverty line.
+            </p>
+            <p class="reveal reveal-delay-2">
+              From festival special drives to emergency relief, our food initiative has grown 
+              from a weekend project into a systematic programme that thousands of families 
+              depend on.
+            </p>
+            <div class="impact-pills reveal reveal-delay-3">
+              <span class="impact-pill">🍽 10,000+ Meals Served</span>
+              <span class="impact-pill">📍 Kanpur &amp; Ghaziabad</span>
+              <span class="impact-pill">🗓 Weekly Drives</span>
+              <span class="impact-pill">👥 500+ Families Served</span>
+            </div>
+          </div>
+          <div class="cause-visual food-bg reveal reveal-delay-2">
+            <span class="cause-visual-icon">🍛</span>
+            <div class="cause-visual-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Education -->
+    <div class="cause-block" id="cause-education" style="background: #FAFBFF;">
+      <div class="container">
+        <div class="cause-inner reversed">
+          <div class="cause-text">
+            <span class="tag-pill tag-teal">📚 Education</span>
+            <h2 class="reveal">Knowledge Is<br/>the Greatest Gift</h2>
+            <p class="reveal reveal-delay-1">
+              Education is the most powerful weapon against poverty. NayePankh runs 
+              mentorship sessions, distributes free stationery and books, and provides 
+              career guidance to children and young adults who cannot afford coaching or 
+              academic support.
+            </p>
+            <p class="reveal reveal-delay-2">
+              Our student volunteers — many of them first-generation college-goers themselves 
+              — become relatable role models who inspire children to dream bigger and aim higher.
+            </p>
+            <div class="impact-pills reveal reveal-delay-3">
+              <span class="impact-pill">🎓 500+ Children Mentored</span>
+              <span class="impact-pill">📖 Free Stationery Drives</span>
+              <span class="impact-pill">🧭 Career Guidance Sessions</span>
+              <span class="impact-pill">🏫 School Awareness Camps</span>
+            </div>
+          </div>
+          <div class="cause-visual edu-bg reveal reveal-delay-2">
+            <div class="cause-visual-icon">📚</div>
+            <div class="cause-visual-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Health & Hygiene -->
+    <div class="cause-block" id="cause-health">
+      <div class="container">
+        <div class="cause-inner">
+          <div class="cause-text">
+            <span class="tag-pill tag-teal" style="background:rgba(16,185,129,0.12);color:#065F46;">💊 Health &amp; Hygiene</span>
+            <h2 class="reveal">Dignity &amp; Health<br/>Are Basic Rights</h2>
+            <p class="reveal reveal-delay-1">
+              Healthcare access in underserved communities remains a critical challenge. 
+              NayePankh bridges this gap through free health camps, medical awareness sessions, 
+              and targeted hygiene drives — with a special focus on women's menstrual health.
+            </p>
+            <p class="reveal reveal-delay-2">
+              Our sanitary pad distribution drives have reached hundreds of women and girls who 
+              previously lacked access to basic menstrual hygiene products, breaking both the 
+              economic and social barriers around this crucial issue.
+            </p>
+            <div class="impact-pills reveal reveal-delay-3">
+              <span class="impact-pill">🩺 Free Health Camps</span>
+              <span class="impact-pill">🌸 Sanitary Pad Drives</span>
+              <span class="impact-pill">💉 Awareness Sessions</span>
+              <span class="impact-pill">🏥 Medical Guidance</span>
+            </div>
+          </div>
+          <div class="cause-visual health-bg reveal reveal-delay-2">
+            <div class="cause-visual-icon">💊</div>
+            <div class="cause-visual-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Clothing -->
+    <div class="cause-block" id="cause-clothing" style="background: #FDF8FF;">
+      <div class="container">
+        <div class="cause-inner reversed">
+          <div class="cause-text">
+            <span class="tag-pill" style="background:rgba(139,92,246,0.12);color:#6D28D9;">👕 Clothing Drives</span>
+            <h2 class="reveal">Warmth Is<br/>a Human Right</h2>
+            <p class="reveal reveal-delay-1">
+              For many families living on the streets or in temporary shelters, winter 
+              is a life-threatening season. NayePankh's clothing drives — with priority given 
+              to winter garments — provide blankets, sweaters, and warm clothing to those most 
+              vulnerable to the cold.
+            </p>
+            <p class="reveal reveal-delay-2">
+              We run community collection drives throughout the year, sorting, cleaning, and 
+              distributing donated garments with care and dignity — because how we give matters 
+              as much as what we give.
+            </p>
+            <div class="impact-pills reveal reveal-delay-3">
+              <span class="impact-pill">🧥 Winter Priority Drives</span>
+              <span class="impact-pill">🧣 Blankets &amp; Warm Wear</span>
+              <span class="impact-pill">📦 Community Collections</span>
+              <span class="impact-pill">🤝 Dignity-First Approach</span>
+            </div>
+          </div>
+          <div class="cause-visual cloth-bg reveal reveal-delay-2">
+            <div class="cause-visual-icon">👕</div>
+            <div class="cause-visual-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end causes-section -->
+
+  <!-- ── Bottom CTA ── -->
+  <section class="join-cta-section">
+    <div class="container">
+      <h2 class="reveal">Support These Causes</h2>
+      <p class="reveal reveal-delay-1">Your contribution — big or small — directly funds these programmes. No middlemen, no delays.</p>
+      <div class="join-cta-btns reveal reveal-delay-2">
+        <button class="btn btn-saffron" data-page="donate">♥&nbsp; Donate Now</button>
+        <button class="btn btn-outline-white" data-page="contact">Volunteer With Us</button>
+      </div>
+    </div>
+  </section>
+
+</main><!-- end #page-causes -->
+
+
+<!-- ========================================================
+     PAGE: DONATE
+     ======================================================== -->
+<main id="page-donate" class="page">
+
+  <!-- ── Hero ── -->
+  <section class="donate-hero" aria-labelledby="donate-heading">
+    <div class="container">
+      <h1 id="donate-heading" class="reveal">Your <em>₹100</em> Can Feed<br/>a Child Today</h1>
+      <p class="reveal reveal-delay-1">
+        Every rupee donated goes directly to food drives, education support, health camps, 
+        and clothing drives — verified, transparent, and impactful.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Donate Section ── -->
+  <section class="donate-section">
+    <div class="container">
+      <div class="donate-grid">
+
+        <!-- Left: Donation Form -->
+        <div class="donation-form-card reveal">
+          <h3>Make a Donation</h3>
+
+          <!-- Preset Amounts -->
+          <div class="amount-grid" role="group" aria-label="Select Donation Amount">
+            <button class="amount-btn" data-amount="100"  id="amt-100">₹100</button>
+            <button class="amount-btn" data-amount="250"  id="amt-250">₹250</button>
+            <button class="amount-btn" data-amount="500"  id="amt-500">₹500</button>
+            <button class="amount-btn" data-amount="1000" id="amt-1000">₹1,000</button>
+            <button class="amount-btn" data-amount="2000" id="amt-2000">₹2,000</button>
+            <button class="amount-btn" data-amount="custom" id="amt-custom">Custom</button>
+          </div>
+
+          <form id="donation-form" novalidate>
+            <div class="form-group">
+              <label for="donation-amount">Donation Amount (₹)</label>
+              <input type="number" id="donation-amount" name="amount" min="10" placeholder="Enter amount in ₹" required />
+            </div>
+            <div class="form-group">
+              <label for="donor-name">Full Name *</label>
+              <input type="text" id="donor-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="donor-email">Email Address *</label>
+              <input type="email" id="donor-email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="donor-phone">Phone Number *</label>
+              <input type="tel" id="donor-phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+
+            <button type="submit" class="form-submit-btn" id="proceed-to-pay-btn">
+              Proceed to Pay &nbsp;→
+            </button>
+          </form>
+
+          <p class="tax-note">
+            🎁 Donations tax-exempt under <strong>Section 80G</strong> of Income Tax Act
+          </p>
+
+          <!-- UPI/Bank Box -->
+          <div class="upi-box">
+            <h5>Direct Transfer Options</h5>
+            <div class="upi-detail">
+              <span class="upi-detail-icon">📧</span>
+              <span>contact@nayepankh.com</span>
+            </div>
+            <div class="upi-detail">
+              <span class="upi-detail-icon">📞</span>
+              <span>+91 8318500748</span>
+            </div>
+            <div class="upi-detail">
+              <span class="upi-detail-icon">💳</span>
+              <span>UPI / Bank Transfer available on request</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Why Donate -->
+        <div class="why-donate reveal reveal-delay-2">
+          <h3>Why Donate to NayePankh?</h3>
+          <div class="why-list">
+            <div class="why-item">
+              <div class="why-number">1</div>
+              <div class="why-content">
+                <h4>Verified &amp; Govt Registered</h4>
+                <p>We are officially registered with the Government of Uttar Pradesh — your donation goes to a legitimate, accountable organisation.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-number">2</div>
+              <div class="why-content">
+                <h4>Direct Impact, No Middlemen</h4>
+                <p>Every rupee flows directly to beneficiaries — food, books, medicine, clothing. Our student volunteers ensure zero leakage.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-number">3</div>
+              <div class="why-content">
+                <h4>Tax Benefits Under 80G</h4>
+                <p>Your donation qualifies for a 50% income tax deduction under Section 80G. We provide official receipts for all donations.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-number">4</div>
+              <div class="why-content">
+                <h4>2 Lakh+ Lives Already Impacted</h4>
+                <p>Since 2019, over 2,00,000 lives have been touched across Kanpur, Ghaziabad, and beyond — and we're growing every single month.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Info Cards -->
+          <div style="margin-top: 36px; display: flex; flex-direction: column; gap: 14px;">
+            <div style="background: rgba(42,123,111,0.06); border: 1px solid rgba(42,123,111,0.15); border-radius: 14px; padding: 20px 22px;">
+              <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--teal);margin-bottom:6px;">Our Impact Per Rupee</div>
+              <div style="font-size:0.88rem;color:var(--text-dark);line-height:1.7;">
+                ₹100 → 1 nutritious meal<br/>
+                ₹250 → 1 stationery kit for a child<br/>
+                ₹500 → Sanitary hygiene kit for 5 women<br/>
+                ₹1,000 → Winter clothing set for a family
+              </div>
+            </div>
+            <div style="background: rgba(244,161,29,0.07); border: 1px solid rgba(244,161,29,0.2); border-radius: 14px; padding: 20px 22px;">
+              <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--saffron-dark);margin-bottom:6px;">For Volunteers</div>
+              <div style="font-size:0.88rem;color:var(--text-dark);">
+                Want to give your time? We welcome volunteers from across UP.
+                <button class="btn btn-sm btn-outline-saffron" data-page="contact" style="margin-top:10px;display:inline-flex">Join as Volunteer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main><!-- end #page-donate -->
+
+
+<!-- ========================================================
+     PAGE: CONTACT
+     ======================================================== -->
+<main id="page-contact" class="page">
+
+  <!-- ── Hero ── -->
+  <section class="contact-hero" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="about-hero-badge">We'd Love to Hear From You</div>
+      <h1 id="contact-heading" class="reveal">Get in Touch</h1>
+      <p class="reveal reveal-delay-1">
+        Whether you want to donate, volunteer, partner with us, or simply learn more —
+        our team is always happy to connect. Reach out and let's create change together.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Contact Section ── -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Info -->
+        <div>
+          <h3 class="reveal" style="color:var(--midnight);margin-bottom:30px;font-size:1.4rem;">Contact Information</h3>
+
+          <div class="contact-items">
+            <div class="contact-item reveal reveal-delay-1">
+              <div class="contact-item-icon">📧</div>
+              <div class="contact-item-text">
+                <h5>Email</h5>
+                <a href="mailto:contact@nayepankh.com">contact@nayepankh.com</a>
+              </div>
+            </div>
+            <div class="contact-item reveal reveal-delay-2">
+              <div class="contact-item-icon">📞</div>
+              <div class="contact-item-text">
+                <h5>Phone</h5>
+                <a href="tel:+918318500748">+91 8318500748</a>
+              </div>
+            </div>
+            <div class="contact-item reveal reveal-delay-3">
+              <div class="contact-item-icon">📍</div>
+              <div class="contact-item-text">
+                <h5>Location</h5>
+                <p>Kanpur &amp; Ghaziabad, Uttar Pradesh, India</p>
+              </div>
+            </div>
+            <div class="contact-item reveal reveal-delay-4">
+              <div class="contact-item-icon">🕐</div>
+              <div class="contact-item-text">
+                <h5>Office Hours</h5>
+                <p>Monday – Saturday, 10:00 AM – 6:00 PM IST</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="contact-socials reveal reveal-delay-3">
+            <h5>Follow Us</h5>
+            <div class="contact-social-links">
+              <a href="https://www.instagram.com/nayepankh" target="_blank" rel="noopener" class="contact-social-link" id="social-instagram">
+                <span>📷</span> Instagram
+              </a>
+              <a href="https://www.linkedin.com/company/nayepankh" target="_blank" rel="noopener" class="contact-social-link" id="social-linkedin">
+                <span>💼</span> LinkedIn
+              </a>
+              <a href="https://www.youtube.com/@nayepankh" target="_blank" rel="noopener" class="contact-social-link" id="social-youtube">
+                <span>▶️</span> YouTube
+              </a>
+              <a href="https://www.facebook.com/nayepankh" target="_blank" rel="noopener" class="contact-social-link" id="social-facebook">
+                <span>📘</span> Facebook
+              </a>
+              <a href="https://twitter.com/nayepankh" target="_blank" rel="noopener" class="contact-social-link" id="social-twitter">
+                <span>🐦</span> Twitter/X
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Donate CTA -->
+          <div style="margin-top: 36px; padding: 24px; background: linear-gradient(135deg, var(--midnight), var(--midnight-light)); border-radius: var(--radius-lg); " class="reveal reveal-delay-4">
+            <div style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--saffron);margin-bottom:8px;">Ready to Make a Difference?</div>
+            <p style="color:rgba(249,245,238,0.7);font-size:0.88rem;margin-bottom:16px;">Your support transforms lives in Kanpur &amp; Ghaziabad every single day.</p>
+            <button class="btn btn-saffron btn-sm" data-page="donate" id="contact-donate-btn">♥&nbsp; Donate Now</button>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-card reveal reveal-delay-2">
+          <h3>Send Us a Message</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Full Name *</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address *</label>
+              <input type="email" id="contact-email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder="How can we help?" />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Tell us about your inquiry — volunteering, donations, partnerships, or anything else..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit-btn" id="contact-send-btn">
+              Send Message &nbsp;✉️
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main><!-- end #page-contact -->
+
+
+<!-- ========================================================
+     FOOTER (Shared)
+     ======================================================== -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:14px;">
+          <img src="logo.png" alt="NayePankh Foundation Logo" class="nav-logo-img" style="width:42px;height:42px;" />
+          <div class="nav-logo-text">
+            <span class="nav-logo-main">NayePankh</span>
+            <span class="nav-logo-sub">Foundation</span>
+          </div>
+        </div>
+        <p class="footer-tagline">"Think global, Act local."</p>
+        <p class="footer-reg">
+          Registered NGO — Government of Uttar Pradesh<br/>
+          80G Certified &bull; 12A Certified<br/>
+          CIN / Reg. No.: Available on request<br/>
+          Est. 2019, Kanpur, India
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a data-page="home" role="button">Home</a>
+        <a data-page="about" role="button">About Us</a>
+        <a data-page="causes" role="button">Our Causes</a>
+        <a data-page="donate" role="button">Donate</a>
+        <a data-page="contact" role="button">Contact</a>
+      </div>
+
+      <!-- Our Causes -->
+      <div class="footer-col">
+        <h5>Our Causes</h5>
+        <span>🍛 Food Security</span>
+        <span>📚 Education</span>
+        <span>💊 Health &amp; Hygiene</span>
+        <span>👕 Clothing Drives</span>
+        <a href="mailto:contact@nayepankh.com">contact@nayepankh.com</a>
+        <a href="tel:+918318500748">+91 8318500748</a>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>© 2024 NayePankh Foundation. All rights reserved. &bull; This is a student intern project, not the official website.</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/nayepankh" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram" title="Instagram">📷</a>
+        <a href="https://www.linkedin.com/company/nayepankh" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn" title="LinkedIn">💼</a>
+        <a href="https://www.youtube.com/@nayepankh" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube" title="YouTube">▶️</a>
+        <a href="https://www.facebook.com/nayepankh" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook" title="Facebook">📘</a>
+        <a href="https://twitter.com/nayepankh" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter" title="Twitter/X">🐦</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ========================================================
+     GLOBAL UI ELEMENTS
+     ======================================================== -->
+<!-- Scroll to Top -->
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top" title="Back to top">↑</button>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
